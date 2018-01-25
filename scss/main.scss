@@ -1,0 +1,21 @@
+$color-fondo: gray;
+
+body {
+  background-color: $color-fondo;
+  border: 1px solid white;
+  margin: 100px;
+  color: red;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+
+  & div {
+    background-color: red;
+  }
+}
+
+.front {
+  color: #000000;
+}
