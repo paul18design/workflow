@@ -1,4 +1,4 @@
-$color-fondo: gray;
+$color-fondo: white;
 
 body {
   background-color: $color-fondo;
@@ -6,7 +6,11 @@ body {
   margin: 100px;
   color: red;
 }
-
+p{
+  font-family: "Arial Narrow";
+  color: #000;
+  font-size: 25px;
+}
 main {
   display: flex;
   justify-content: center;
@@ -17,5 +21,5 @@ main {
 }
 
 .front {
-  color: #000000;
+  color: blue;
 }

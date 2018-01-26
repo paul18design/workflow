@@ -1,1 +1,1 @@
-body{background-color:gray;border:1px solid #fff;margin:100px;color:red}main{display:flex;justify-content:center}main div{background-color:red}.front{color:#000}
+body{background-color:#fff;border:1px solid #fff;margin:100px;color:red}p{font-family:Arial Narrow;color:#000;font-size:25px}main{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}main div{background-color:red}.front{color:blue}

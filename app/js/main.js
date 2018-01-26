@@ -7,7 +7,7 @@
         console.info(nombre, ', sup motherfuckers');
     }
 
-    saludar(nombrar('Paul'));
+    saludar(nombrar('Paul '));
 })();/**
  * Created by PRODRIGUEZ on 1/24/2018.
  */
