@@ -39,7 +39,7 @@ gulp.task('javascript', function() {
 gulp.task('css', function(){
     return gulp.src('scss/**/*.scss')
         .pipe(sass())
-        //.pipe(cssnano())
+        .pipe(cssnano())
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
